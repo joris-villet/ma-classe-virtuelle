@@ -1,0 +1,48 @@
+.cardforhome-teacher {
+ 
+  &-title{
+    color: #3F9EF1;
+    font-size: 2.5rem;
+    line-height: 15rem;
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+
+  .cardforhome-teacher{
+
+    &-title{
+   
+      font-size: 2rem;
+      line-height: 15rem;
+      margin-left: 150px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 890px) {
+
+  .cardforhome-teacher{
+
+    &-title{
+   
+      font-size: 2rem;
+      line-height: 15rem;
+      margin-left: 150px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+
+  .cardforhome-teacher{
+
+    &-title{
+      font-size: 1.5rem;
+    }
+  }
+
+}

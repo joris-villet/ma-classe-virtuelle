@@ -1,0 +1,41 @@
+.contact-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.img-contact {
+  width: 100%;
+}
+
+.header-logo-contact {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+
+  .header {
+    margin: 0 auto;
+    padding: 1em 0;
+    display: flex;
+    max-width: 1520px;
+    justify-content: space-between;
+    /*max-width: 1520px;*/
+    &-logo {
+      &-img{
+        width: 150px;
+      }
+    }
+    &-container {
+        
+      &-link{
+        display: none;
+      }
+    }
+    .logo {
+      display: none;
+    }
+  }
+}
+

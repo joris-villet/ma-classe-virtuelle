@@ -1,0 +1,50 @@
+.field {
+  margin: 1rem 0;
+  position: relative;
+    &-input {
+      border: none;
+      border-bottom: 2px solid rgb(200, 200, 200);
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      font-weight: bold;
+      color: #969696;
+      padding: 5px 0;
+    }
+    .field-input:focus {
+      border-bottom: 2px solid #5FB3F6;
+    }
+  &-label {
+    display: none;
+    position: absolute;
+    top: .2rem;
+    left: .7rem;
+    font-weight: 700;
+    color: #999;
+    font-size: .7em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    animation: labelSlideUpAndShow .3s;
+  }
+  &--has-content .field-label {
+    display: block;
+  }
+  &--has-content .field-input {
+    padding: 1.4em .7em .4em;
+  }
+}
+.field-input:focus + .field-label {
+  color: #5FB3F6;
+}
+
+@keyframes labelSlideUpAndShow{
+  0% {
+    transform: translateY(1em);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0em);
+    opacity: 1;
+  }
+}
+

@@ -1,0 +1,57 @@
+.create-class {
+  &-title{
+    color: #969696;
+    text-align: center;
+    font-weight: 700;
+  }
+  &-container-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0.5rem  1rem;
+  }
+  &-form {
+    &-element {
+      display: flex;
+      align-items: left;
+      flex-direction: column;
+      padding: 10px;
+      background: #fff;
+    }
+
+    &-message {
+      text-align: right;
+      margin: .3em 1em;
+    }
+    
+    &-logged {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    
+    &-button {
+      display: block;
+      margin: 2rem auto;
+      padding: 0.5rem  1rem;
+      background: transparent;
+      border: 2px solid #5FB3F6;
+      border-radius: 30px;
+      color: #969696;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: .2s;
+      cursor: pointer;
+  
+      &:hover{
+        background: #6bbbf8;
+        color: #fff;
+        transform: translatey(2px);
+      }
+    }
+  }
+ 
+}
+
+

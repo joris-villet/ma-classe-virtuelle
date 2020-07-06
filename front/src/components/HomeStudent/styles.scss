@@ -1,0 +1,26 @@
+.homeStudent {
+  margin: -100px auto 200px auto;
+  background-image: url("../../assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -200px;
+  width: 100%;
+  height: 100%;
+}
+
+.homeStudent-container-lists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1520px;
+  margin: 0 auto;
+}
+
+.homeStudent-container-change-week {
+  padding-top: 300px;
+}
+
+
+
+// animista 
+

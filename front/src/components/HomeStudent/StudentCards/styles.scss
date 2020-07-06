@@ -1,0 +1,30 @@
+.studentCard {
+  background-color: #EFEFEF;
+  border-radius: 2px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.14);
+  margin: 10px;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  cursor: pointer;
+  &-label {
+    color: #fff;
+    font-weight: bold;
+    width: 130px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 25px;
+  }
+  &-title-card {
+    color: #8A8989;
+    margin: 0.5rem 0 1rem 0;
+  }
+  &-paragraphe {
+    margin: 0.7rem 0;
+    font-weight: bold;
+    color: #8A8989;
+  }
+  
+}
+
+

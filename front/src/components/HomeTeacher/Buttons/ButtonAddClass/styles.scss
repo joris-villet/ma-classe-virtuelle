@@ -1,0 +1,59 @@
+.button-add-class {
+  width: 465px;
+  height: 106px;
+  background: #FFF;
+  border-radius: 1px;
+  border: none;
+  color: #3F9EF1;
+  text-align: center;
+  line-height: 106px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.14);
+}
+
+@media screen and (max-width: 1410px)  {
+  
+  .button-add-class  {
+    width: 350px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1120px)  {
+  
+  .button-add-class  {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 950px)  {
+
+  .button-add-class  {
+    width: 250px;
+    height:50px;
+    line-height: 50px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 770px)  {
+
+  .button-add-class  {
+    width: 465px;
+    height:50px;
+    line-height: 50px;
+    font-size: 1rem;
+    margin: 0.5rem auto;
+  }
+}
+
+@media screen and (max-width: 520px)  {
+
+  .button-add-class  {
+    width: 300px;
+  }
+}

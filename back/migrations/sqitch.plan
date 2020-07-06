@@ -1,0 +1,17 @@
+%syntax-version=1.0.0
+%project=school
+
+init 2020-06-15T08:16:04Z "Etudiant O'clock",,, <etudiant@teleporteur> # creations des tables
+import_list 2020-06-15T08:24:13Z "Etudiant O'clock",,, <etudiant@teleporteur> # import calendrier dans list
+api/create 2020-06-16T11:33:39Z "Etudiant O'clock",,, <etudiant@teleporteur> # function create teacher
+api/update 2020-06-16T12:31:53Z "Etudiant O'clock",,, <etudiant@teleporteur> # function updated teacheher
+api/view_week 2020-06-17T08:36:25Z "Etudiant O'clock",,, <etudiant@teleporteur> # views created to get current_week, next_week, and previous_week
+api/function_week 2020-06-18T15:19:28Z "Etudiant O'clock",,, <etudiant@teleporteur> # function list and card for current week
+function_week_student 2020-06-21T10:45:16Z "Etudiant O'clock",,, <etudiant@teleporteur> # function de recuperations de la semaine avec les cartes et labels par student id
+api/function_week_teacher 2020-06-21T14:50:27Z "Etudiant O'clock",,, <etudiant@teleporteur> # function week by teacher
+import_data 2020-06-21T20:14:46Z "Etudiant O'clock",,, <etudiant@teleporteur> # ajout de data
+import_data_card_label 2020-06-21T20:46:53Z "Etudiant O'clock",,, <etudiant@teleporteur> # ajout de carte et de label
+api/function_card_whith_label 2020-06-29T09:10:14Z "Etudiant O'clock",,, <etudiant@teleporteur> # ajout d'un fonction de vue d'une card avec les info de son label
+api/function_list_by_week 2020-06-30T19:05:57Z "Etudiant O'clock",,, <etudiant@teleporteur> # function recuperant les listes avec leurs cartes et label en fonction de la semaine de l'id de la classe et du teacher
+api/function_list_by_week_by_teacher 2020-06-30T19:13:38Z "Etudiant O'clock",,, <etudiant@teleporteur> # function utilisant la fonctions list_by_week trier par teacher
+api/function_list_by_week_by_student 2020-06-30T19:57:59Z "Etudiant O'clock",,, <etudiant@teleporteur> # fonction de recuperation des listes en fonction de l'eleve et de la semaine choisi

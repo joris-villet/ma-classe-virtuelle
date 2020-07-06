@@ -1,0 +1,114 @@
+.section {
+  background: #fff;
+  margin: 100px auto;
+  padding: 100px 0;
+  &--last {
+    background: #fff;
+    margin: 100px 0 0 0;
+    padding: 100px 0;
+  }
+}
+
+.InfosInHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  &-title {
+    color: #3F9EF1;
+    font-size: 3rem;
+    font-weight: bold;
+    &--white {
+      color: #fff;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
+
+  &-paragraphe{
+    max-width: 50%;
+    font-size: 1.2em;
+    margin: 1.5rem;
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+  }
+  &-paragrapheTwo{
+    max-width: 50%;
+    font-size: 1.2em;
+    margin: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  &-image {
+    max-width: 50%;
+    text-align: center;
+  }
+
+  &-imageOne {
+    width: 70%;
+  }
+
+  &-imageTwo{
+    width: 70%;
+    margin: 1.5rem;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.20);
+  }
+
+  &-imageThree{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+
+  .InfosInHome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    &-paragraphe{
+      max-width: 80%;
+    }
+    &-paragrapheTwo{
+      max-width: 80%;
+      margin: 0;
+      padding: 0;
+    }
+    &-image {
+      margin: 5rem 0;
+    }
+    &-imageTwo{
+      width: 90%;
+    }
+  
+    &-imageThree{
+      width: 90%;
+    }
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+
+  .InfosInHome {
+    width: 100%;
+    &-paragraphe{
+      max-width: 90%;
+    }
+    &-paragrapheTwo{
+      max-width: 90%;
+      margin: 0;
+      padding: 0;
+    }
+    &-image {
+      margin: 5rem 0;
+    }
+  
+    &-imageThree{
+      width: 200px;
+    }
+  }
+
+}

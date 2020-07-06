@@ -1,0 +1,13 @@
+.button-container {
+  margin: 10px;
+  &-add-card{
+    color: #6bbbf8;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+  }
+  &:hover > &-add-card {
+    color: #1d83db;
+  }
+}
+

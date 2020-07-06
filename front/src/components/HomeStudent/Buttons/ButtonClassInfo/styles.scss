@@ -1,0 +1,59 @@
+.button-class-info {
+  width: 465px;
+  height: 106px;
+  background: #fff;
+  border-radius: 1px;
+  border: none;
+  color: #3F9EF1;
+  line-height: 106px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.14);
+  &:hover {
+    cursor: unset;
+  }
+}
+
+@media screen and (max-width: 1410px)  {
+  
+  .button-class-info  {
+    width: 350px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1120px)  {
+  
+  .button-class-info  {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 950px)  {
+
+  .button-class-info  {
+    width: 250px;
+    height:50px;
+    line-height: 50px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 770px)  {
+
+  .button-class-info  {
+    width: 465px;
+    margin: 0.5rem auto;
+  }
+}
+
+@media screen and (max-width: 520px)  {
+
+  .button-class-info  {
+    width: 300px;
+  }
+}
+
+

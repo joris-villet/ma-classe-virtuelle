@@ -1,0 +1,40 @@
+.homeTeacher {
+  margin: 270px auto 200px 0;
+}
+
+.bg_gradient {
+  background: rgb(182,236,255);
+  background: linear-gradient(90deg, rgba(182,236,255,1) 24%, rgba(0,126,255,1) 99%); 
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  z-index: -1;
+  transform: translateY(-250px);
+}
+
+
+.teacher-buttons-container {
+  max-width: 1520px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.homeTeacher-container-lists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1520px;
+  margin: 20px auto;
+}
+
+
+@media screen and (max-width: 770px)  {
+
+  .teacher-buttons-container  {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
