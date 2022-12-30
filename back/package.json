@@ -20,7 +20,7 @@
     "chai": "^4.2.0",
     "hapi-cors": "^1.0.3",
     "hapi-swagger": "^13.0.2",
-    "mocha": "^8.0.1",
+    "mocha": "^8.4.0",
     "nodemailer": "^6.4.10",
     "password-generator": "^2.3.2",
     "pg": "^8.2.1"
